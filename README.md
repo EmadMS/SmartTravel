@@ -12,9 +12,7 @@ Smart Travel Assistant is an AI-powered application designed to help travelers m
 
 🚌 Multi-Modal Transportation – Suggests optimal transport options.
 
-🏨 Accommodation Recommendations – Find sustainable stays.
-
-🗣 AI-Powered Assistance – Get instant travel-related help.
+🏨 Tourist Destination Recommendations – Find nearby tourist attractions.
 
 📷 Screenshots
 
