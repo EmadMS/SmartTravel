@@ -1,0 +1,102 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Travel Results</title>
+    <!-- Google Fonts: Bebas Neue -->
+    <link
+      href="https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap"
+      rel="stylesheet"
+    />
+    <!-- Bootstrap CSS -->
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+    />
+    <!-- Font Awesome -->
+    <link
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css"
+      rel="stylesheet"
+    />
+    <style>
+      /* Custom Styles */
+      body {
+        font-family: "Bebas Neue", sans-serif;
+        background: linear-gradient(to bottom, #000000, #001aff);
+        color: white;
+        min-height: 100vh;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        margin: 0;
+      }
+      .card {
+        background: rgba(255, 255, 255, 0.1);
+        border: none;
+        border-radius: 10px;
+        backdrop-filter: blur(10px);
+        box-shadow: 0 4px 6px rgba(0, 0, 0, 0.3);
+        width: 100%;
+        max-width: 800px;
+        margin: 1rem;
+      }
+      .card-header {
+        background: rgba(255, 255, 255, 0.2);
+        border-bottom: none;
+        color: white;
+        font-size: 1.5rem;
+      }
+      .card-body {
+        color: white;
+      }
+      .list-group-item {
+        background: rgba(255, 255, 255, 0.1);
+        border: none;
+        color: white;
+      }
+    </style>
+  </head>
+  <body>
+    <!-- Main -->
+    <div class="container">
+      <div class="row justify-content-center">
+        <div class="col-md-8">
+          <div class="card mb-4">
+            <div class="card-header">
+              <h4 class="mb-0">Travel Results</h4>
+            </div>
+            <div class="card-body">
+              <h5 class="card-title">
+                Carbon Emissions: {{ emissions }} kg CO<sub>2</sub>
+              </h5>
+              <h5 class="card-title">
+                Eco-Friendly Travel Mode: {{ eco_mode | capitalize }}
+              </h5>
+            </div>
+          </div>
+
+          <!-- Tourist Activities -->
+          <div class="card mb-4">
+            <div class="card-header">
+              <h4 class="mb-0">Tourist Activities</h4>
+            </div>
+            <div class="card-body">
+              {% if tourist_activities %}
+              <ul class="list-group">
+                {% for activity in tourist_activities %}
+                <li class="list-group-item">{{ activity.name }}</li>
+                {% endfor %}
+              </ul>
+              {% else %}
+              <p>No tourist activities found.</p>
+              {% endif %}
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <!-- Bootstrap JS -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
+  </body>
+</html>
