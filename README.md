@@ -31,10 +31,12 @@ API keys for necessary integrations
 Steps
 
 # Clone the repository
-git clone (https://github.com/EmadMS/Smart-Travel)
+git clone (https://github.com/EmadMS/Smart-Travel)](https://github.com/EmadMS/SmartTravel)
 cd smart-travel-assistant
 
 # Run the project
+
+# pip install requirements.txt
 
 # Start development server
 
