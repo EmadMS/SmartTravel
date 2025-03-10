@@ -1,5 +1,58 @@
-# Python Starter
+Smart Travel Assistant
 
-Quickly get started with [Python](https://www.python.org/) using this starter! 
+A sustainable and intelligent travel companion to enhance your journeys.
 
-- If you want to upgrade Python, you can change the image in the [Dockerfile](./.devcontainer/Dockerfile).
+🌍 About the Project
+
+Smart Travel Assistant is an AI-powered application designed to help travelers make eco-friendly and efficient travel choices. It provides personalized recommendations, real-time updates, and sustainability insights to enhance travel experiences while minimizing environmental impact.
+
+🚀 Features
+
+🌱 Sustainable Travel Suggestions – Get eco-friendly travel routes and tips.
+
+🚌 Multi-Modal Transportation – Suggests optimal transport options.
+
+🏨 Accommodation Recommendations – Find sustainable stays.
+
+🗣 AI-Powered Assistance – Get instant travel-related help.
+
+📷 Screenshots
+
+![image](https://github.com/user-attachments/assets/38087705-3d30-4783-99e4-f4d6492a2844)
+![image](https://github.com/user-attachments/assets/6782e61d-3e25-471e-afbb-a55e7a084bd3)
+
+
+🔧 Installation
+
+Prerequisites
+
+Node.js / Python installed
+
+API keys for necessary integrations
+
+Steps
+
+# Clone the repository
+git clone (https://github.com/EmadMS/Smart-Travel)
+cd smart-travel-assistant
+
+# Run the project
+
+# Start development server
+
+python app.py
+
+🎯 Usage
+
+
+Enter travel destinations and get personalized recommendations.
+
+Track your carbon footprint and make sustainable choices.
+
+📜 License
+
+This project is licensed under the MIT License - see the LICENSE file for details.
+
+👥 Contributors
+
+Your Name : Emad Moeez Syed
