@@ -34,16 +34,19 @@ Steps
 git clone (https://github.com/EmadMS/SmartTravel)
 cd smart-travel-assistant
 
+# install dependencies such as flask
+
+pip install flask pandas numpy
+APIs used must be installed separately following same bash commands
+
 # Run the project
 
-# pip install requirements.txt
+python app.py in a separate terminal
+open preview in another tab
 
 # Start development server
 
-python app.py
-
 🎯 Usage
-
 
 Enter travel destinations and get personalized recommendations.
 
@@ -55,4 +58,5 @@ This project is licensed under the MIT License - see the LICENSE file for detail
 
 👥 Contributors
 
-Your Name : Emad Moeez Syed
+Emad Moeez Syed
+Daniyal Ali
