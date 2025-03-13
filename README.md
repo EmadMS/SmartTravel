@@ -14,6 +14,7 @@ Smart Travel Assistant is an AI-powered application designed to help travelers m
 
 🏨 Tourist Destination Recommendations – Find nearby tourist attractions.
 
+
 📷 SCREENSHOTS
 
 ![image](https://github.com/user-attachments/assets/38087705-3d30-4783-99e4-f4d6492a2844)
@@ -43,8 +44,6 @@ APIs used must be installed separately following same bash commands
 
 python app.py in a separate terminal
 open preview in another tab
-
-# START DEVELOPMENT SERVER
 
 🎯 USAGE
 
