@@ -49,5 +49,3 @@ This project is licensed under the MIT License - see the LICENSE file for detail
 # 👥 CONTRIBUTORS
 ### [Emad Moeez Syed](https://github.com/EmadMS)
 ### [Daniyal Ali](https://github.com/Danirali)
-
-Documentation written by @Danirali
